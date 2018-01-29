@@ -1,0 +1,12 @@
+doctype html
+html
+  head
+    title= title
+    link(rel="stylesheet" type="text/css" href="/stylesheets/styles.css")
+    link(rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/latest/css/bootstrap.min.css")
+  body
+    h3= title
+    h5  Following are the titles of given websites: 
+    ul
+      each val in data
+        li= val
