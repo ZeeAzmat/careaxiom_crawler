@@ -1,0 +1,13 @@
+doctype html
+html
+  head
+    title= title
+    link(rel="stylesheet" type="text/css" href="/stylesheets/styles.css")
+    link(rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/latest/css/bootstrap.min.css")
+  body
+    h3= title
+    h5 Something went wrong
+    ul
+      each val in err
+        li= val
+        
